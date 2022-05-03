@@ -18,6 +18,12 @@ public class HomeController : Controller
         return View();
     }
 
+    private string JoinTwoStrings(string one, string two)
+    {
+        var NewString.Concat(one, two);
+        return NewString;
+    }
+
     public IActionResult Privacy()
     {
         return View();
