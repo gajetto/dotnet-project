@@ -20,9 +20,10 @@ public class HomeController : Controller
 
     private string JoinTwoStrings(string one, string two)
     {
-        var NewString.Concat(one, two);
+        var NewString = string.Concat(one, two);
         return NewString;
     }
+
 
     public IActionResult Privacy()
     {
